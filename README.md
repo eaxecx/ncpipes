@@ -5,7 +5,7 @@
 </p>
 
 # Building
-To build this project, you should have installed the [notcurses](https://github.com/dankamongmen/notcurses) library.
+To build this project, you should install the [notcurses](https://github.com/dankamongmen/notcurses) library.
 
 If you have notcurses installed, just type `mkdir build && cd build && cmake ..`. You can also install `ncpipes` by typing `sudo cmake --install .`
 
