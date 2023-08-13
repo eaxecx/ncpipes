@@ -13,7 +13,6 @@
 #include <argtable3/argtable3.h>
 #include <notcurses/direct.h>
 
-#include <assert.h>
 #include <signal.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -116,9 +115,6 @@ int main(int argc, char *argv[]) {
     set_signal_handler(SIGINT, sigint_handler);
 
     main_loop();
-
-    ncdirect_stop(_nc);
-    _nc = NULL;
 
     return EXIT_SUCCESS;
 }
