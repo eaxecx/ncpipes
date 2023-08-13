@@ -7,7 +7,7 @@
 # Building
 To build this project, you should have installed the [notcurses](https://github.com/dankamongmen/notcurses) library.
 
-If you have notcurses installed, just type `mkdir build && cd build && cmake ..`. You can also install `ncpipes` typing `sudo cmake --install .`
+If you have notcurses installed, just type `mkdir build && cd build && cmake ..`. You can also install `ncpipes` by typing `sudo cmake --install .`
 
 # Usage
 Type `ncpipes` and the pipes will start running on your screen! To exit, press Ctrl-C.
